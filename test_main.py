@@ -1,4 +1,4 @@
 import main
 
-def test_main(x):
+def test_main():
     assert(True)
