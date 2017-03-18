@@ -12,5 +12,6 @@ dependencies:
 
 deployment:
   production:
+    branch: master
     pre:
       - pyenv global 2.7.12
