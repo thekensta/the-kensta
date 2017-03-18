@@ -16,4 +16,4 @@ deployment:
   production:
     branch: master
     commands:
-      - gcloud --quiet --project ${GCLOUD_PROJECT} app deploy app.yaml
+      - gcloud --quiet --verbosity=info --project ${GCLOUD_PROJECT} app deploy app.yaml
